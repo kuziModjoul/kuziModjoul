@@ -17,14 +17,16 @@ with col2:
     st.balloons()
     
     with st.form("my_form"):
-       st.write("Inside the form")
-       slider_val = st.slider("Form slider")
-       checkbox_val = st.checkbox("Form checkbox")
+       st.write("Please enter your details in the form")
+       name_and_lastName = st.text_input("Name and LasName: ")
+       email = st.text_input("Email: ")
+       phone_number = st.text_input("Phone number : ")
+
 
        # Every form must have a submit button.
        submitted = st.form_submit_button("Submit")
        if submitted:
-           st.write("slider", slider_val, "checkbox", checkbox_val)
+           st.write("Name and Last Name", name_and_lastName, "Email", email, "Phone Number", phone_number)
 
 with col3:
     st.write("")
