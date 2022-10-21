@@ -18,7 +18,7 @@ with col2:
     
     with st.form("my_form"):
        st.write("Please enter your details in the form")
-       name_and_lastName = st.text_input("Name and LasName: ")
+       name_and_lastName = st.text_input("Name and Last Name: ")
        email = st.text_input("Email: ")
        phone_number = st.text_input("Phone number : ")
 
