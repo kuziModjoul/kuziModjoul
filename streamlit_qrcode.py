@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config( page_title="congratulations",
-                    page_icon= "random",
+#                     page_icon= "random",
                     layout="wide"
  )
 
