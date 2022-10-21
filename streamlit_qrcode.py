@@ -26,7 +26,7 @@ with col2:
        # Every form must have a submit button.
        submitted = st.form_submit_button("Submit")
        if submitted:
-           st.write("Name and Last Name", name_and_lastName, "Email", email, "Phone Number", phone_number)
+           st.write(f"""Name and Last Name: {name_and_lastName} \nEmail : {email} \nPhone Number : {phone_number} """)
 
 with col3:
     st.write("")
