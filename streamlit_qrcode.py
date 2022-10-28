@@ -12,7 +12,7 @@ with col1:
 
 with col2:
 
-    st.markdown("<center><img src='https://github.com/kuziModjoul/streamlit-webpage-example/blob/main/modjoul_logo.jpg?raw=1' width=100/></center>", unsafe_allow_html=True)
+    st.markdown("<center><img src='https://github.com/kuziModjoul/streamlit-webpage-example/blob/main/modjoul.jpg?raw=1' width=100/></center>", unsafe_allow_html=True)
     st.markdown(" <h1 style='text-align: center;'>Congratulations you Won!!!!!!!!!</h1>", unsafe_allow_html=True)
     st.balloons()
     
