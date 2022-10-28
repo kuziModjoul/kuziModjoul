@@ -16,17 +16,7 @@ with col2:
     st.markdown(" <h1 style='text-align: center;'>Congratulations you Won!!!!!!!!!</h1>", unsafe_allow_html=True)
     st.balloons()
     
-    with st.form("my_form"):
-       st.write("Please enter your details in the form")
-       name_and_lastName = st.text_input("Name and Last Name: ")
-       email = st.text_input("Email: ")
-       phone_number = st.text_input("Phone number : ")
-
-
-       # Every form must have a submit button.
-       submitted = st.form_submit_button("Submit")
-       if submitted:
-           st.write(f"""Name and Last Name: {name_and_lastName} \nEmail : {email} \nPhone Number : {phone_number} """)
+    st.markdown("Please visit our Modjoul booth (#501) to claim your prize!")
 
 with col3:
     st.write("")
