@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config( page_title="congratulations",
+st.set_page_config( page_title="Congratulations",
 #                     page_icon= "random",
                     layout="wide"
  )
