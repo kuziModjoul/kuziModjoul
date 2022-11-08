@@ -16,7 +16,7 @@ with col2:
     st.markdown(" <h1 style='text-align: center;'>Congratulations you Won!!!!!!!!!</h1>", unsafe_allow_html=True)
     st.balloons()
     
-    st.markdown("<h3 style='text-align: center;'>Please visit our Modjoul booth (#501) to claim your prize!</h3>", unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: center;'>Please visit our Modjoul booth (#400) to claim your prize!</h3>", unsafe_allow_html=True)
 
 with col3:
     st.write("")
